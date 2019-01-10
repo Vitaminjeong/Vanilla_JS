@@ -1,0 +1,69 @@
+1-3 ES5, ES6
+
+[Specification]
+JavaScript는누군가 업데이트하게 되면 전체적으로 적용됨
+따라서 이에 대한 메뉴얼이 필요함.
+즉, 설명문같은 것임
+
+1-5 Hello World with javascript
+
+[JS 파일 추가하는 방법]
+Js 파일은 html의 body에서 가장 마지막에 넣는다.
+
+1-7 let, const, var
+
+[const]
+상수 : 처음 초기화한 뒤 변화한 값을 인정하지 않음
+=> 다른 사람들이 변수를 바꾸기를 원치 않는다면 사용
+
+[let]
+초기화한 뒤에도 자유롭게 값을 변화할 수 있음
+
+[var]
+변수
+let과 비슷하게 값의 변화에 제한이 없음
+
+1-8 Data Type on JS
+
+첫사용은 const로 선언, 필요할 때만 let 사용
+
+[string을 사용할 때]
+단순히 const what = string을 쓰는 것이 아니라
+const what = "string";이라고 써야함
+=> "" 안에 있는 것은 모두 텍스트 처리, 숫자도 예외 없음
+
+[Boolean]
+true = 1 혹은 false = 0
+=> true나 false는 텍스트가 아님
+
+[Number]
+숫자 : const what = 404;로씀
+
+[Float]
+소숫점이 있는 수 : const what = 3.14;로 씀
+
+1-9 Organizing Data with Arrays
+
+[Camel case]
+변수명의 첫문자는 항상 소문자로 시작하지만
+중간에 스페이스가 필요할 경우에는 대문자를 사용
+
+[Array]
+const daysOfWeek = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];으로 씀
+=> 배열
+
+1-10 Organizing Data with Objects
+
+[Array와 Object의 차이]
+Object는 Array와 달리 각각의 value에 이름을 설정할 수 있음
+
+const Info = {
+  name : "MJ",
+  age : 21
+}로 씀
+=> 구조체
+
+리스트 형식 : Array
+복합 정보 : Object
+
+Object 안에 Array 삽입 가능
