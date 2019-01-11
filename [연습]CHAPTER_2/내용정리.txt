@@ -1,0 +1,78 @@
+2-1 More Function Fun
+
+[함수 만들기]
+함수를 만들 때에는
+
+function sayHello () {
+ '''
+}
+
+형식을 갖추면 됨
+
+ex)
+function sayHello(name, age) {
+  console.log("Hello!", name, "you have", age, "years of age.");
+}
+
+sayHello("MJ", 21);
+
+=> sayHello에서 사용할 값을 함수에 전달하기 위해서는
+   name, age같은 요소들의 이름을 함수 안에 적어야 함
+
+2-1-1 More Function Fun
+
+[string을 삽입하는 새로운 방법]
+function sayHello(name, age) {
+  console.log(`Hello! ${name} you have ${age} years of age.`);
+}
+
+sayHello("MJ", 21);
+
+[함수 활용]
+const calculator = {
+  plus: function(a, b) {
+    return a + b;
+  }
+}
+
+const plus = calculator.plus(5,5)
+console.log(plus)
+
+2-2 JS DOM Functions
+
+JavaScript를 통해 HTML을 변경할 수 있음
+
+2-3 Modifying the DOM with JS
+
+console.dir();를 사용해서 변경할 수 있는 목록을 살펴볼 수 있음
+
+2-4 Events and event handlers
+
+querySelector, addEventListener 사용
+
+2-5 If, else, and, or
+
+[If]
+If의 조건은 항상 true
+만약 true가 아니라면 else로 넘어감
+
+[and]
+T && T = T
+F && T = F
+T && F = F
+F && F = F
+
+[or]
+T || T = T
+F || T = T
+T || F = T
+F || F = F
+
+2-6 DOM -If else- Function practice
+
+효과적으로 event 쓰기
+참고할 사이트는 MDN
+
+2-7 DOM -If else- Function practice part Two
+
+toggle 사용하기
