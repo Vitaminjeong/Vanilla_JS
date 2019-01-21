@@ -1,17 +1,22 @@
 body {
-    background-color: #2c3e50;
+    text-align: center;
+    padding: 100px 0px;
 }
 
 .btn {
     cursor: pointer;
 }
 
+.js-toDoList.btn {
+    background-color: red;
+}
+
 h1 {
-    color: #34495e;
+    color: white;
 }
 
 .clicked {
-    color: #7f8c8d;
+    color: white;
 } 
 
 .form, 
@@ -39,4 +44,45 @@ h1 {
     width: 100%;
     height: 100%;
     z-index: -1;
+}
+
+.js-clock {
+    color: white;
+    font-size: 35px;
+}
+
+.js-greetings,
+.js-weather {
+    color: white;
+    font-size: 20px;
+}
+
+.js-toDoList {
+    position: relative;
+    color: white;
+    font-size: 20px;
+    right: 10px;
+}
+
+.js-input {
+    color: white;
+    font-size: 25px;
+    padding : 10px 0px;
+}
+
+::-webkit-input-placeholder {
+    color: white;
+}
+
+input,
+:placeholder-shown {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    width: 50%;
+    background: transparent;
+    outline: none;
+    border-style: none;
+    border-bottom: 1px solid #f0f0f0;
+    padding: 10px 0px;
 }
